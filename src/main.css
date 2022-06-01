@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #2b2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Play', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.btn {
+  @apply bg-[#2e2e2e] border-y-[1px] border-r-[1px] border-white py-[10px] px-4
+}
+
+.btn svg {
+  width: 20px;
+  height: 20px;
+}
