@@ -8,6 +8,7 @@ import successSound from './assets/sounds/success.mp3'
 import Confetti from 'react-confetti'
 import useWindowSize from 'react-use/lib/useWindowSize'
 import * as S from './App.styled'
+import { Analytics } from '@vercel/analytics/react';
 
 // filter info not needed in the VectorMap component to avoid an error
 let countries = { ...world, layers: world.layers.map(({allowedNames, locked, ...rest}) => rest) } 
@@ -105,6 +106,7 @@ function App() {
           </>
         )}
       </TransformWrapper>
+      <Analytics />
     </div>
   )
 }
