@@ -1,3 +1,3 @@
 # countriesquiz
 
-Live: https://countriesquiz-seven.vercel.app/
+Live: https://countriesquiz-english.vercel.app/
