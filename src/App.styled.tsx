@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Map = styled.div`
-
   width: 100%;
   height: 100%;
   border: 0px solid black;
@@ -22,9 +21,15 @@ export const Map = styled.div`
       }
     }
 
-    path[id='ps'], path[id='gf'], path[id='xk'], path[id='tw'], path[id='eh'], path[id='gl'] {
+    path[id='va'],
+    path[id='ps'],
+    path[id='gf'],
+    path[id='xk'],
+    path[id='tw'],
+    path[id='eh'],
+    path[id='gl'] {
       cursor: not-allowed;
       fill: #252525 !important;
     }
   }
-`;
+`
